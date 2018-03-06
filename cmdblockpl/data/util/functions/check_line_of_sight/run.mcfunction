@@ -5,6 +5,6 @@
 # Uwaga! Tag LOS_SEE_TMP jest zabierany wszystkim bytom przy wywolaniu tej funkcji
 
 tag @e[tag=LOS_SEE_TMP] remove LOS_SEE_TMP
-execute positioned ~ ~1 ~ facing entity @e[tag=LOS_OBSERVER_TMP,sort=arbitrary] feet run function util:check_line_of_sight_loop
+execute positioned ~ ~1 ~ facing entity @e[tag=LOS_OBSERVER_TMP,sort=arbitrary] feet run function util:check_line_of_sight/loop
 tag @e[tag=LOS_OBSERVER_TMP] remove LOS_OBSERVER_TMP
 #say @e[tag=LOS_SEE_TMP]
