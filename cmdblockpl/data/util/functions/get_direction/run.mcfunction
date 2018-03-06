@@ -1,3 +1,4 @@
+#Po wywolaniu zwraca na scoreboardach dirX, dirY i dirZ wektor reprezentujacy kierunek patrzenia sie bytu
 execute store result score @s dirX run data get entity @s Pos[0] -1000000
 execute store result score @s dirY run data get entity @s Pos[1] -1000000
 execute store result score @s dirZ run data get entity @s Pos[2] -1000000
