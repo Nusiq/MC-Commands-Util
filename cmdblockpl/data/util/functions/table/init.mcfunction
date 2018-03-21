@@ -1,3 +1,4 @@
+scoreboard objectives add listLength dummy
 scoreboard objectives add tableIO dummy
 scoreboard objectives add tableIndex dummy
 scoreboard objectives add table0 dummy
