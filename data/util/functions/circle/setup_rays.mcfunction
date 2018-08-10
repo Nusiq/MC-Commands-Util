@@ -7,7 +7,7 @@
 
 scoreboard players add @s slam_rot 1
 execute rotated as @s run particle block dirt ^ ^ ^1
-tp @s ~ ~ ~ ~10 ~
+execute at @s run tp @s ~ ~ ~ ~10 ~
 execute rotated as @s run summon area_effect_cloud ^ ^ ^1 {Duration:20,Tags:["slam_ray","noID"]}
 scoreboard players operation @e[tag=slam_ray,tag=noID,limit=1] slam_rot = @s slam_rot
 scoreboard players set @e[tag=slam_ray,tag=noID] slam_ray_life 7
